@@ -1,0 +1,3 @@
+Nim	:202320203
+Nama	:Nathan
+Alamat	:Solo
