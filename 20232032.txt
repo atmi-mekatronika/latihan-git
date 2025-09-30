@@ -1,0 +1,3 @@
+Nim: 20232032
+Nama: Daniel
+Alamat: Palur
