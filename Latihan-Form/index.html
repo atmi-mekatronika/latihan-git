@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <
+    <title>Formulir Input</title>
+    <style>
+        /* CSS untuk Styling Dasar */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* Container Formulir yang Mirip Jendela */
+        .form-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            width: 350px; /* Lebar keseluruhan formulir */
+            resize: both; /* Opsional: membuat pengguna bisa mengubah ukuran */
+            overflow: auto; /* Memastikan scroll bar muncul jika konten melebihi batas */
+        }
+        
+        /* Layout untuk setiap baris input */
+        .form-group {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start; /* Untuk textarea agar label di atas */
+        }
+
+        /* Label di sebelah kiri */
+        label {
+            width: 100px; /* Lebar tetap untuk label */
+            padding-top: 5px; 
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        /* Semua input teks dan textarea */
+        input[type="text"], input[type="email"], textarea {
+            flex-grow: 1; /* Membuat input mengisi sisa ruang */
+            padding: 5px;
+            border: 1px solid #000;
+            box-sizing: border-box; /* Agar padding tidak menambah lebar total */
+        }
+
+        /* Styling khusus untuk area alamat (textarea) */
+        #address {
+            height: 100px; /* Menentukan tinggi agar scroll bar bisa muncul */
+            overflow: auto; /* **PENTING: MENGAKTIFKAN SCROLL BAR** */
+            resize: none; /* Mencegah pengguna mengubah ukuran textarea */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="you name here">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="your email here">
+        </div>
+
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address">25 Nowhere Street
+Somewhere
+Not Here
+Y2K 5RU</textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="postcode">Postcode:</label>
+            <input type="text" id="postcode" name="postcode" value="postal code" style="width: 100px;">
+        </div>
+        
+    </div>
+
+</body>
+</html>

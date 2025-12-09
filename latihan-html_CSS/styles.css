@@ -1,0 +1,41 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid gold;
+}
+.custom-aside{
+    width: 30%;
+    min-height: 400px;
+    background-color: lightgreen;
+    padding: 20px;
+    vertical-align: top;
+}
+.custom-header{
+    width: 100%;
+    padding: 30;
+    border-collapse: collapse;
+    background-color: wheat;
+    text-align: center;
+    border-color: black;
+}
+.custom-nav{
+    width: 100%;
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+}
+.custom-section {
+    width: 100%;
+    padding: 20px;
+    background-color: pink;
+    padding-left: 10px;
+}
+.custom-footer{
+    width: 100%;
+    padding: 20px;
+    background-color: wheat;
+    text-align: center;
+}
+td {
+    padding: 0;
+}
