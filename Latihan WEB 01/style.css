@@ -1,0 +1,50 @@
+table { 
+    width: 35%; 
+    border-collapse: collapse; 
+}
+
+td { 
+    border: 1px solid #e0c48d;
+    padding: 0;
+    vertical-align: top; 
+}
+
+
+.header { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8e4c8; 
+    text-align: center; 
+    padding: 30px ;  
+}
+
+.nav { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: #d9e7ff; 
+    text-align: center; 
+    padding: 20px; 
+    
+}
+
+.content { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2cccc; 
+    padding-top: 50px;
+    padding-left:70px; 
+    height: 230px; }
+.sidebar { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: #d5e6d5; 
+    padding-top: 70px; 
+    width: 25%; 
+    text-align: left; 
+}
+
+.footer { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8e4c8; 
+    text-align: center; 
+    padding: 25px 0; 
+    
+}
+
+
