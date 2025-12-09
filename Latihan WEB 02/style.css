@@ -1,0 +1,48 @@
+body {
+font-family: 'Times New Roman', Times, serif;
+background: #c0c0c0;
+padding: 20px;
+}
+
+form {
+border: 2px solid #4d4747;
+background: #ffffff;
+box-shadow: -2px -2px 0 #bebebe inset, 2px 2px 0 #808080 inset;
+padding: 15px;
+width: 350px;
+display: block;
+}
+
+.row {
+margin-bottom: 15px;
+display: block;
+}
+
+label {
+display: inline-block;
+width: 70px;
+font-weight: bold;
+vertical-align: top;
+}
+
+input[type="text"], textarea {
+height: 12px;
+width: 200px;
+resize: none;
+overflow-y: scroll;
+overflow-x: hidden;
+white-space: pre;
+border: 2px solid #808080;
+background: #fff;
+font-family: "Courier New", monospace;
+padding: 4px;
+outline: none;
+box-shadow: 1px 1px 0 #fff inset, -1px -1px 0 #808080 inset;
+}
+
+textarea {
+height: 70px;
+resize: none;
+overflow: auto;
+white-space: pre;
+}
