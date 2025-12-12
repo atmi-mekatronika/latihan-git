@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Stopwatch</title>
+</head>
+
+<body>
+
+    <h1 id="display">0</h1>
+
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+    <button onclick="resetTimer()">Reset</button>
+
+    <script>
+        let detik = 0;
+        let interval = null;
+
+        function startTimer() {
+            if (interval) return;
+
+            interval = setInterval(() => {
+                detik++;
+                document.getElementById("display").textContent = detik;
+            }, 1000);
+        }
+
+        function stopTimer() {
+            clearInterval(interval);
+            interval = null;
+        }
+
+        function resetTimer() {
+            stopTimer();
+            detik = 0;
+            document.getElementById("display").textContent = detik;
+        }
+    </script>
+
+</body>
+
+</html>

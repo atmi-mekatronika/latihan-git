@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Prompt</title>
+</head>
+
+<body>
+
+    <script>
+        const a = parseFloat(prompt("Masukkan angka pertama:"));
+        const operator = prompt("Masukkan operator (+, -, *, /):");
+        const b = parseFloat(prompt("Masukkan angka kedua:"));
+        let hasil;
+        if (operator === "+") {
+            hasil = a + b;
+        } else if (operator === "-") {
+            hasil = a - b;
+        } else if (operator === "*") {
+            hasil = a * b;
+        } else if (operator === "/") {
+            if (b === 0) {
+                alert("Error: Pembagian dengan 0 tidak diperbolehkan!");
+            } else {
+                hasil = a / b;
+            }
+        } else {
+            alert("Operator tidak valid!");
+        }
+        if (hasil !== undefined) {
+            alert("Hasil: " + hasil);
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+.logoheader {
+    width: 200px;
+    margin-left: 90px;
+}
+
+.navbarkanan {
+    padding-right: 200px;
+}
+
+.judul {
+    padding-left: 15px;
+    font-size: 35px;
+    font-family: fantasy;
+}
+
+.imagegerak {
+    width: 100%;
+
+    /* bebas, bisa 500–700 */
+    object-fit: cover;
+    /* crop otomatis agar gambar tidak ada panel hitam */
+}
+
+.smut {
+    transform: translateZ(0);
+}
+
+.caption {
+    text-align: center;
+}
+
+.gambar {
+
+    background-position: center;
+    background-size: cover;
+    background-image: url("asset/img/8.JPG");
+
+}
+
+.logo {
+    border-radius: 100%;
+}
+
+.texthome {
+    text-align: center;
+}
+
+/* Caption berada di tengah layar */
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.textwelcome {
+    font-size: 100px;
+    text-align: left;
+    padding-left: 250px;
+    padding-top: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1px;
+}
+
+.text-2 {
+    margin-top: 1px;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 250px;
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    text-align: left;
+    color: white;
+    z-index: 10;
+
+}
+
+.hero-text h5 {
+    font-size: 90px;
+    /* Sesuaikan kalau ingin lebih besar */
+    font-weight: 700;
+    /* Kesan premium */
+    line-height: 1.1;
+    /* Mirip contoh */
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 40px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.bekgron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* ubah transparansi: 0.2–0.6 */
+    z-index: 5;
+    /* lebih tinggi dari gambar, lebih rendah dari teks */
+}
+
+/*
+header {
+    margin-bottom: 40px; /* bisa diubah 20–80px 
+}
+*/
+
+
+/* Jarak antar section */
+/*section#home {     /* jarak atas section 
+    margin-bottom: 60px; 
+}*/
+
+/* Kalau nanti ada footer, tambahkan jarak 
+/*footer {
+    margin-top: 60px;
+    padding: 20px 0;
+}*/
+
+/* Background hitam hanya untuk section products */
+#products {
+    background: #000;
+}
+
+/* Box produk */
+.product-box {
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    transition: 0.3s;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.product-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+.produk-gambar {
+    
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.padding-produk{
+    padding-top:9rem;
+    padding-bottom:120px;
+}
+
+
+.m-b-teks{
+    margin-bottom: 7rem;
+}

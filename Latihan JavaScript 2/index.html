@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+</head>
+
+<body>
+
+    <h2>To-Do List</h2>
+
+    <input type="text" id="todoInput" placeholder="Tulis tugas...">
+    <button onclick="tambahTodo()">Tambah</button>
+
+    <ul id="todoList"></ul>
+
+    <script>
+        function tambahTodo() {
+            const input = document.getElementById("todoInput");
+            const teks = input.value.trim();
+
+            if (teks === "") {
+                alert("Isi dulu tugasnya!");
+                return;
+            }
+
+            const li = document.createElement("li");
+            li.textContent = teks;
+
+            document.getElementById("todoList").appendChild(li);
+
+            input.value = "";
+            input.focus();
+        }
+    </script>
+
+</body>
+
+</html>
