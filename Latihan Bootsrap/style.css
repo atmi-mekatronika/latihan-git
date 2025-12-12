@@ -1,0 +1,111 @@
+/* ------------------------------
+   PREMIUM TYPOGRAPHY
+--------------------------------*/
+body { 
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #f9f9f9;
+}
+
+.custom-header,
+.custom-caption-header {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.custom-header {
+    font-size: 1.1rem;
+    padding-left: 80px !important; 
+    padding-right: 80px !important;
+    margin-right: 80px;
+    font-weight: 500;
+}
+
+.custom-caption-header {
+    font-size: 1rem;
+    opacity: .9;
+}
+
+/* ------------------------------
+   CAROUSEL PREMIUM
+--------------------------------*/
+.carousel-inner {
+    position: relative;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.15);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    filter: brightness(82%) contrast(105%);
+}
+
+/* ------------------------------
+   OVERLAY LAYER SYSTEM
+--------------------------------*/
+
+.carousel-overlay-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* agar tidak ganggu tombol carousel */
+}
+
+/* Layer 1 — dark gradient dasar */
+.overlay-gradient {
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.75)
+    );
+    z-index: 2;
+}
+
+/* Layer 2 — glass blur premium */
+.overlay-glass {
+    backdrop-filter: blur(6px);
+    background: rgba(255,255,255,0.05);
+    z-index: 3;
+}
+
+/* ------------------------------
+   TEXT OVERLAY PREMIUM
+--------------------------------*/
+.carousel-overlay-text {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10; /* paling atas */
+    color: #fff;
+    text-align: center;
+    padding: 25px 40px;
+    border-radius: 15px;
+}
+
+.carousel-overlay-text h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.carousel-overlay-text p {
+    font-size: 1rem;
+    margin-top: 10px;
+    opacity: .9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .carousel-inner {
+        height: 300px;
+    }
+    .carousel-item img {
+        height: 300px;
+    }
+    .carousel-overlay-text h1 {
+        font-size: 1.6rem;
+    }
+}
