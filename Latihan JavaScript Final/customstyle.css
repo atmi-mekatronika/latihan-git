@@ -1,0 +1,367 @@
+/*.logoheader {
+    width: 200px;
+    margin-left: 90px;
+}*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.navbarkanan {
+    padding-right: 200px;
+}
+
+.judul {
+    padding-left: 15px;
+    font-size: 35px;
+    font-family: fantasy;
+}
+
+.imagegerak {
+    width: 100%;
+
+
+    object-fit: cover;
+}
+
+.smut {
+    transform: translateZ(0);
+}
+
+.caption {
+    text-align: center;
+}
+
+.gambar {
+
+    background-position: center;
+    background-size: cover;
+    background-image: url("asset/img/8.JPG");
+
+}
+
+.logo {
+    border-radius: 100%;
+}
+
+.texthome {
+    text-align: center;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.textwelcome {
+    font-size: 100px;
+    text-align: left;
+    padding-left: 250px;
+    padding-top: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1px;
+}
+
+.text-2 {
+    margin-top: 1px;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 250px;
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    text-align: left;
+    color: white;
+    z-index: 10;
+
+}
+
+.hero-text h5 {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 40px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.bekgron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+
+#products {
+    background: #000;
+}
+
+
+.product-box {
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    transition: 0.3s;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.product-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+.produk-gambar {
+
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.padding-produk {
+    padding-top: 9rem;
+    padding-bottom: 120px;
+}
+
+
+.m-b-teks {
+    margin-bottom: 7rem;
+}
+
+
+.profile-parallax {
+    background-image: url("asset/img/bg-workshop.JPG");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 10vh;
+}
+
+.profile-overlay {
+    background: rgba(0, 0, 0, 0.65);
+    padding: 120px 0;
+}
+
+.chart-box {
+    background: #ffffff;
+    padding: 28px 26px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+}
+
+
+.chart-title {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #222;
+    margin-bottom: 18px;
+}
+
+.chart-placeholder {
+    height: 320px;
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+    border: none;
+    display: block;
+}
+#orderChart {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+
+/*kontak*/
+.contact-section {
+    background: linear-gradient(180deg, #0b0f14, #05070a);
+    padding: 100px 0;
+}
+
+.contact-card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 28px 22px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    transition: transform .2s ease, border-color .2s ease;
+    height: 100%;
+}
+
+.contact-card-tiktok {
+    background: rgba(255, 255, 255, 0.06);
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 28px 22px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    transition: transform .2s ease, border-color .2s ease;
+    height: 100%;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(212, 175, 55, 0.5);
+    box-shadow:
+        0 0 5px rgba(212, 175, 55, 0.5),
+        0 0 15px rgba(212, 175, 55, 0.3),
+        0 0 25px rgba(212, 175, 55, 0.15);
+}
+
+.contact-card-tiktok:hover {
+    transform: translateY(-6px);
+    border-color: rgba(212, 175, 55, 0.5);
+    box-shadow:
+        0 0 5px rgba(212, 175, 55, 0.5),
+        0 0 15px rgba(212, 175, 55, 0.3),
+        0 0 25px rgba(212, 175, 55, 0.15);
+}
+
+.contact-icon {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 14px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.contact-icon-tiktok {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 14px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.contact-icon img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.contact-icon-tiktok img {
+    height: 50%;
+    object-fit: cover;
+}
+
+
+.contact-title {
+    color: #fff;
+    margin-bottom: 8px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.contact-value {
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 16px;
+}
+
+.contact-link {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: background .2s ease, transform .2s ease;
+}
+
+.contact-link:hover {
+    background: rgba(255, 255, 255, 0.18);
+    transform: translateY(-2px);
+    color: #fff;
+}
+
+/* NAVBAR HITAM */
+.custom-navbar {
+    background-color: #000 !important;
+    padding: 16px 32px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .6);
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+/* LOGO */
+.logoheader {
+    height: 45px;
+    margin-right: 18px;
+}
+
+/* LINK BASIC */
+.custom-nav .nav-link {
+    position: relative;
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-weight: 500;
+    margin-left: 30px;
+    padding: 8px 4px;
+    transition: color .25s ease, text-shadow .25s ease;
+}
+
+/* UNDERLINE DEFAULT: MATI */
+.custom-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0 !important;
+    /* paksa 0 */
+    height: 2px;
+    background: linear-gradient(90deg, #d4af37, #fff3b0);
+    transition: width .3s ease;
+}
+
+/* ACTIVE: TIDAK BOLEH NGASIH GARIS */
+.custom-nav .nav-link.active::after {
+    width: 0 !important;
+    /* paksa tetap 0 */
+}
+
+/* ACTIVE cuma warna (opsional) */
+.custom-nav .nav-link.active {
+    color: #fff !important;
+    text-shadow: 0 0 6px rgba(212, 175, 55, 0.25);
+}
+
+/* Garis gold hanya muncul kalau:
+   1) kursor ada di NAVBAR, dan
+   2) kursor hover di LINK */
+.custom-navbar:hover .custom-nav .nav-link:hover::after {
+    width: 100% !important;
+}
+
+/* Hover efek (warna + glow) */
+.custom-navbar:hover .custom-nav .nav-link:hover {
+    color: #fff !important;
+    text-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+}

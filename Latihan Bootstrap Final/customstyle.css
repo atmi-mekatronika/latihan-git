@@ -1,0 +1,180 @@
+.logoheader {
+    width: 200px;
+    margin-left: 90px;
+}
+
+.navbarkanan {
+    padding-right: 200px;
+}
+
+.judul {
+    padding-left: 15px;
+    font-size: 35px;
+    font-family: fantasy;
+}
+
+.imagegerak {
+    width: 100%;
+
+
+    object-fit: cover;
+}
+
+.smut {
+    transform: translateZ(0);
+}
+
+.caption {
+    text-align: center;
+}
+
+.gambar {
+
+    background-position: center;
+    background-size: cover;
+    background-image: url("asset/img/8.JPG");
+
+}
+
+.logo {
+    border-radius: 100%;
+}
+
+.texthome {
+    text-align: center;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.textwelcome {
+    font-size: 100px;
+    text-align: left;
+    padding-left: 250px;
+    padding-top: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1px;
+}
+
+.text-2 {
+    margin-top: 1px;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 250px;
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    text-align: left;
+    color: white;
+    z-index: 10;
+
+}
+
+.hero-text h5 {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 40px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.bekgron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+
+#products {
+    background: #000;
+}
+
+
+.product-box {
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    transition: 0.3s;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.product-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+.produk-gambar {
+
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.padding-produk {
+    padding-top: 9rem;
+    padding-bottom: 120px;
+}
+
+
+.m-b-teks {
+    margin-bottom: 7rem;
+}
+
+
+.profile-parallax {
+    background-image: url("asset/img/bg-workshop.JPG");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 10vh;
+}
+
+.profile-overlay {
+    background: rgba(0, 0, 0, 0.65);
+    padding: 120px 0;
+}
+
+.chart-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.chart-title {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.chart-placeholder {
+    height: 250px;
+    border: 2px dashed #ccc;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-style: italic;
+}
