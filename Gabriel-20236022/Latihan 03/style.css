@@ -1,0 +1,166 @@
+/* --- Reset Dasar --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth; /* Agar scroll menu halus */
+}
+
+/* --- Navigation Bar (Orange Atas) --- */
+.BarTop {
+    background-color: #ffe5b4; /* Warna Peach/Orange muda */
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-weight: bold;
+}
+
+.menuTop a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.menuTop a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* --- Hero Section (Biru) --- */
+.Hero {
+    background-color: #dbeafe; /* Biru muda */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* --- Komponen Umum (Tombol Judul Section) --- */
+.small-btn {
+    background-color: white;
+    border: 1px solid #333;
+    padding: 8px 30px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* --- Services Section (Kuning) --- */
+.Services-back {
+    background-color: #fffac8; /* Kuning muda */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.serviceshead {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.serviceitem {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+}
+
+.serviceitem h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+/* --- About Section (Ungu) --- */
+.section-about {
+    background-color: #e6d8ea; /* Ungu muda */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 900px;
+    margin: 30px auto 0;
+}
+
+/* --- Contact Section (Hijau) --- */
+.section-contact {
+    background-color: #d6e9d8; /* Hijau muda */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-box {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: left;
+}
+
+/* Style Input Form */
+.contact-box input {
+    width: 48%; /* Agar Nama dan Email bersebelahan */
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background: white;
+}
+
+.contact-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 15px; /* Radius lebih besar seperti di gambar */
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #0056b3; /* Biru tua */
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #003d80;
+}
+
+/* --- Footer (Orange Bawah) --- */
+.footer {
+    background-color: #ffe5b4;
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid #dcdcdc;
+}
